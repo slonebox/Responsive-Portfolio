@@ -192,12 +192,86 @@ footer {
     }
 }
 
+/* SMALL SCREENS */
+/* ---------------------------------------- */
+
 @media screen and (max-width: 768px) {
     .main_content {
-        width: 738px;
+        margin: 20px auto 50px;
+        max-width: 95vw;
+        width: 100vw;
     }
+
+    .nav_bar {
+        background-color: #ffffff;
+        display: block;
+        height: auto;
+        margin: 0px auto;
+        padding: 20px 0px 20px 0px;
+        width: 100%;
+    }
+
+    header {
+        height: inherit;
+        margin: 0px 0px 40px 0px;
+    }
+
+    h2 {
+        color: white;
+        background-color: #4aaaa5;
+        display: inline;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        padding: 20px;
+    }
+
+    nav{
+        float: right;
+    }
+
+    hr {
+        width: 90vw;
+    }
+
+    p {
+        max-width: 95vw;
+        padding: 10px;
+        margin: 0px 10px;
+    }
+
+    footer {
+        position: static;
+        bottom: 0;
+        padding-bottom: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #profile_image {
+        width: 50vw;
+        margin: 0px 20px 20px 20px;
+        float: left;
+        align-content: left;
+        display: block;
+        padding: 0px;
+        }
+
+    #footer_text {
+        background-color: #666666;
+        border-top-width: 5px;
+        border-top-style: solid;
+        border-color: #4aaaa5;
+        color: #afafaf;
+        font-size: 9pt;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 30px 0px;
+        text-align: center;
+        width: 100%;
 }
 
+
+
+/* XS SCREENS */
+/* ------------------------------------- */
 @media screen and (max-width: 640px) {
     .main_content {
         align-content: center;
