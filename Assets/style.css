@@ -129,21 +129,21 @@ footer {
 
 .project-image {
     display: inline-block;
-    height: 250px;
-    width: 250px;
+    max-width: 250px;
 }
 
 .project_title {
-    background: #4aaaa5;
+    background-color: #4aaaa5;
     color: #ffffff;
+    display: block;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 14pt;
     font-style: none;
-    position: absolute;    
+    line-height: 40px;
+    position: absolute;
+    top: 70%;
     text-align: center;
-    top: 70%; /* Adjust this value to move the positioned div up and down */
-    width: 100%;
-    z-index: 999;
+    width: 90%;
 }
 
 .submit {
@@ -163,6 +163,7 @@ footer {
     border-color: #4aaaa5;
     color: #afafaf;
     font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 30px 0px;
     text-align: center;
 }
@@ -266,6 +267,22 @@ footer {
         padding: 30px 0px;
         text-align: center;
         width: 100%;
+    }
+
+    .project_title {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        display: block;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        font-style: none;
+        line-height: 30px;
+        position: absolute;
+        top: 70%;
+        left: -4%;
+        text-align: center;
+        width: 92%;
+    }
 }
 
 
@@ -330,7 +347,7 @@ footer {
         align-content: center;
         display: block;
         padding: 0px;
-        }
+    }
 
     #footer_text {
         background-color: #666666;
@@ -343,5 +360,39 @@ footer {
         padding: 30px 0px;
         text-align: center;
         width: 100%;
+    }
+
+    .project-left {
+        align-content: center;
+        display: inline-block;
+        margin: 0px 0px 20px 20px;
+        width: 100vw;
+    }
+    
+    .project-right {
+        align-content: center;
+        display: inline-block;
+        margin: 0px 0px 20px 20px;
+        width: 100vw;
+    }
+    
+    .project-image {
+        align-self: center;
+        max-width: 90vw;
+    }
+    
+    .project_title {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        display: block;
+        font-family: 'Georgia', Times, 'Times New Roman', serif;
+        font-size: 14pt;
+        font-style: none;
+        line-height: 40px;
+        position: absolute;
+        top: 130%;
+        left: -2%;
+        text-align: center;
+        max-width: 86vw;
     }
 }
